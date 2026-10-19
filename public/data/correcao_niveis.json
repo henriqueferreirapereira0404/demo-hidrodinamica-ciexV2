@@ -1,0 +1,80 @@
+{
+    "FURG_CCMAR": {
+        "offset_cm": 47.22777777777778,
+        "mae_cm": 47.22777777777778,
+        "mae_corrigido_cm": 5.633333333333333,
+        "rmse_cm": 7.033278479687797,
+        "n_pontos_comparados": 36
+    },
+    "S_Lourenco": {
+        "offset_cm": 42.56666666666667,
+        "mae_cm": 42.56666666666667,
+        "mae_corrigido_cm": 4.435185185185186,
+        "rmse_cm": 5.2852520175379425,
+        "n_pontos_comparados": 36
+    },
+    "Arambare": {
+        "offset_cm": 80.54444444444445,
+        "mae_cm": 80.54444444444445,
+        "mae_corrigido_cm": 4.062962962962962,
+        "rmse_cm": 5.189061381858125,
+        "n_pontos_comparados": 36
+    },
+    "Itapua": {
+        "offset_cm": 83.69722222222221,
+        "mae_cm": 83.69722222222221,
+        "mae_corrigido_cm": 5.007098765432092,
+        "rmse_cm": 7.286078281791587,
+        "n_pontos_comparados": 36
+    },
+    "Pelotas": {
+        "offset_cm": 22.205555555555556,
+        "mae_cm": 22.205555555555556,
+        "mae_corrigido_cm": 5.170987654320986,
+        "rmse_cm": 7.213719353674652,
+        "n_pontos_comparados": 36
+    },
+    "Tavares": {
+        "offset_cm": 58.583333333333336,
+        "mae_cm": 58.583333333333336,
+        "mae_corrigido_cm": 6.031481481481482,
+        "rmse_cm": 6.9315903257798235,
+        "n_pontos_comparados": 36
+    },
+    "Mostardas_DC": {
+        "offset_cm": 85.06944444444443,
+        "mae_cm": 85.06944444444443,
+        "mae_corrigido_cm": 3.7771604938271577,
+        "rmse_cm": 4.727097973060593,
+        "n_pontos_comparados": 36
+    },
+    "ColoniaZ3_DC": {
+        "offset_cm": 54.60555555555555,
+        "mae_cm": 54.60555555555555,
+        "mae_corrigido_cm": 4.5555555555555545,
+        "rmse_cm": 6.177285651861289,
+        "n_pontos_comparados": 36
+    },
+    "Itapua_DC": {
+        "offset_cm": 76.95277777777778,
+        "mae_cm": 76.95277777777778,
+        "mae_corrigido_cm": 5.597839506172841,
+        "rmse_cm": 8.356916168031491,
+        "n_pontos_comparados": 36
+    },
+    "Viamao_DC": {
+        "offset_cm": 73.83055555555556,
+        "mae_cm": 73.83055555555556,
+        "mae_corrigido_cm": 4.618518518518518,
+        "rmse_cm": 6.463350500426076,
+        "n_pontos_comparados": 36
+    },
+    "Saco_da_Mangueira": {
+        "offset_cm": 21.672222222222224,
+        "mae_cm": 21.672222222222224,
+        "mae_corrigido_cm": 6.67067901234568,
+        "rmse_cm": 7.95601139289975,
+        "n_pontos_comparados": 36
+    },
+    "gerado_em": "2026-10-19T14:15:31.510299Z"
+}

@@ -4,7 +4,9 @@ import fs from 'node:fs'
 import path from 'node:path'
 
 // Em desenvolvimento, serve a pasta data/ da raiz do repositório em /data
-// (em produção esses arquivos vêm do volume montado no nginx)
+// (em produção esses arquivos vêm do volume montado no nginx).
+// Se essa pasta não existir (ex.: repositório da demo), /data é servido
+// normalmente a partir de public/data.
 const PASTA_DADOS = path.resolve(__dirname, '../data')
 
 function servirDados() {
@@ -12,6 +14,7 @@ function servirDados() {
     name: 'servir-dados',
     apply: 'serve',
     configureServer(server) {
+      if (!fs.existsSync(PASTA_DADOS)) return
       server.middlewares.use('/data', (req, res) => {
         const naoEncontrado = () => {
           res.statusCode = 404
